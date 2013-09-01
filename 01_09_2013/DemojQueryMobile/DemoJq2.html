@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.3.2.css">
+    <script src="javascript/jquery-2.0.3.js"></script>
+    <script src="javascript/jquery.mobile-1.3.2.js"></script>
+    <script src="javascript/myscript.js"></script>
+</head>
+<body>
+
+    <div id="page1" data-role="page">
+        <div data-role="header">
+            <nav data-role="navbar">
+                <a href="#" class="ui-btn-active">First</a>
+                <a href="#">Second</a>
+                <a href="#">Third</a>
+                <a href="#">Fourth</a>
+                <a href="#">Fifth</a>
+            </nav>
+        </div>
+        Page 1
+        <h3>My List</h3>
+
+        <ul data-role="listview">
+            <li><a href="lecentral.html">Le Central</a>
+<a href="reservations.php?restaurant=903">Make Reservations</a></li>
+            <li><a href="#">Item2</a><span class="ui-li-count">10</span></li>
+            <li><a href="#">Item3</a></li>
+            <li data-role="divider">Item1</li>
+            <li><a href="#">Item1</a></li>
+            <li><a href="#">Item2</a></li>
+            <li><a href="#">Item3</a></li>
+        </ul>
+
+        <h3>Nested List Example</h3>
+        <ul data-role="listview">
+            <li>Restaurants <span class="ui-li-count">10</span>
+                <ul>
+                    <li>French
+                        <ul>
+                            <li>Le Central</li>
+                            <li>Bistro Vandome</li>
+                            <li>Antoine's</li>
+                        </ul>
+                    </li>
+                    <li>Cajun and Creole
+                        <ul>
+                            <li>Bayou Bob's</li>
+                            <li>Pappadeaux</li>
+                            <li>Lucile's</li>
+                        </ul>
+                    </li>
+                    <li>American
+                        <ul>
+                            <li>Dixon's</li>
+                            <li>Vesta Dipping Grill</li>
+                            <li>Steuben's</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <a href="#page2" data-transition="pop" >Next</a>
+        <div data-role="footer">
+            Footer
+        </div>
+    </div>
+
+    <section id="page2" data-role="page">
+        <header data-role="header"><h1>jQuery Mobile</h1></header>
+        <div data-role="content" class="content">
+            <p>Second page!</p>
+        </div>
+        <footer data-role="footer"><h1>O'Reilly</h1></footer>
+    </section>
+
+</body>
+</html>
+
+
+
+
+
+

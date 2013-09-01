@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.3.2.css">
+    <script src="javascript/jquery-2.0.3.js"></script>
+    <script src="javascript/jquery.mobile-1.3.2.js"></script>
+    <script src="javascript/myscript.js"></script>
+</head>
+<body>
+
+    <div id="page1" data-role="page">
+        <div data-role="header">
+            <nav data-role="navbar">
+                <a href="#" class="ui-btn-active">First</a>
+                <a href="#">Second</a>
+                <a href="#">Third</a>
+                <a href="#">Fourth</a>
+                <a href="#">Fifth</a>
+            </nav>
+        </div>
+        Page 1
+
+        <h3>Buttons</h3>
+
+        <a href="#" data-role="button">Link-based button</a>
+
+        <input type="submit" value="submit" data-inline="true">
+        <input type="reset" value="reset" data-inline="false">
+
+        <div data-role="controlgroup">
+            <a href="#" data-icon="home" data-role="button">Yes</a>
+            <a href="#" data-icon="gare" data-role="button">No</a>
+            <a href="#" data-role="button">Cancel</a>
+        </div>
+        <div data-role="controlgroup" data-type="horizontal">
+            <a href="#" data-role="button">Yes</a>
+            <a href="#" data-role="button">No</a>
+            <a href="#" data-role="button">Cancel</a>
+        </div>
+
+        <a href="#page2" data-transition="pop" >Next</a>
+        <div data-role="footer">
+            Footer
+        </div>
+    </div>
+
+    <section id="page2" data-role="page">
+        <header data-role="header"><h1>jQuery Mobile</h1></header>
+        <div data-role="content" class="content">
+            <p>Second page!</p>
+        </div>
+        <footer data-role="footer"><h1>O'Reilly</h1></footer>
+    </section>
+
+</body>
+</html>
+
+
+
+
+
+
