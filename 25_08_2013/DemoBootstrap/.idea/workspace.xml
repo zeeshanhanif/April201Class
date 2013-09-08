@@ -23,7 +23,7 @@
       <file leaf-file-name="DemoJq.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DemoJq.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="6" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.8846154">
+            <state line="9" column="6" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -32,7 +32,7 @@
       <file leaf-file-name="DemoJq2.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DemoJq2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="24" selection-start="484" selection-end="492" vertical-scroll-proportion="0.60714287">
+            <state line="19" column="24" selection-start="484" selection-end="492" vertical-scroll-proportion="0.120300755">
               <folding />
             </state>
           </provider>
@@ -115,6 +115,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -149,13 +150,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../01_09_2013" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../101April2013/April101Class/08_09_2013" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
@@ -190,7 +190,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15784216" sideWeight="0.7787307" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15684316" sideWeight="0.7787307" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39965695" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -354,14 +354,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DemoJq.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.8846154">
+        <state line="9" column="6" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DemoJq2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="24" selection-start="484" selection-end="492" vertical-scroll-proportion="0.60714287">
+        <state line="19" column="24" selection-start="484" selection-end="492" vertical-scroll-proportion="0.120300755">
           <folding />
         </state>
       </provider>

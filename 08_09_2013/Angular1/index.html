@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <meta charset=”utf-8”>
+    <title>Learning 1</title>
+    <script type="text/javascript" src="angular.js"></script>
+    <script src="maincontroller.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+    <div ng-controller='HelloController'>
+        <input ng-model="greeting.text">
+        <p>{{greeting.text}}, World</p>
+    </div>
+
+<div ng-controller='CartController'>
+    <div ng-repeat='item in items'>
+        <span>{{item.title}}</span>
+        <input ng-model='item.quantity'>
+        <span>{{item.price | currency}}</span>
+        <span>{{item.price * item.quantity | currency}}</span>
+        <button ng-click="remove($index)">Remove</button>
+    </div>
+</div>
+</body>
+</html>
