@@ -1,0 +1,15 @@
+<div>
+    <input type="text" ng-model="message">
+    {{ message}}
+    <br>
+    <input type="text" ng-model="newName" >
+    <input type="button" ng-click="addCandidate()" value="Add">
+
+
+    <div ng-repeat="g in candidates">
+        {{ $index+1  }} : {{  g.name }}
+    </div>
+
+    <input type="button" ng-click="changePage()" value="Change">
+
+</div>
